@@ -366,7 +366,7 @@
     <!-- #endregion main portfolio -->
   </main>
 
-  <!-- #region footer  -->
+  <!-- #region footer -->
   <footer class="page-footer">
     <div class="container footer-container">
       <div class="footer-main">
@@ -380,28 +380,28 @@
         <p class="social-label">Social media</p>
         <ul class="social-list-footer">
           <li class="social-item">
-            <a href="#" class="social-link-footer">
+            <a href="#" class="social-link-footer" aria-label="Facebook">
               <svg class="social-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="social-item">
-            <a href="#" class="social-link-footer">
+            <a href="#" class="social-link-footer" aria-label="Twitter">
               <svg class="social-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-twiter"></use>
               </svg>
             </a>
           </li>
           <li class="social-item">
-            <a href="#" class="social-link-footer">
+            <a href="#" class="social-link-footer" aria-label="Instagram">
               <svg class="social-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-insta"></use>
               </svg>
             </a>
           </li>
           <li class="social-item">
-            <a href="#" class="social-link-footer">
+            <a href="#" class="social-link-footer" aria-label="LinkedIn">
               <svg class="social-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
@@ -412,8 +412,8 @@
       <div class="subscribe-section">
         <p class="subscribe-title">Subscribe</p>
         <form class="subscribe-form">
-          <label class="subscribe-label">
-            <input class="subscribe-email" name="email" type="email" placeholder="E-mail">
+          <label class="subscribe-label" for="subscribe-email">
+            <input class="subscribe-email" id="subscribe-email" name="email" type="email" placeholder="E-mail" required>
           </label>
           <button type="submit" class="subscribe-button">
             Subscribe
@@ -423,10 +423,9 @@
           </button>
         </form>
       </div>
-
+    </div>
   </footer>
-  <!-- #endregion footer  -->
-
+  <!-- #endregion footer -->
   <div class="modal-backdrop">
     <div class="modal">
       <button class="modal-btn" type="button">
